@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PJSON Grammar | PowerJSON</title>
+    <meta name="description" content="Powerjson is json&#39;s improved data format.">
+    <link rel="icon" href="/logo.ico">
+  <script src="https://cdn.jsdelivr.net/npm/@powerjson/powerjson/index.js"></script>
+  <script src="//js.users.51.la/20411253.js"></script>
+  <script src="checkLanguage.js"></script>
+  <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async="" data-ad-client="ca-pub-3771109326576181"></script>
+    
+    <link rel="preload" href="/assets/css/0.styles.31cab9db.css" as="style"><link rel="preload" href="/assets/js/app.cebe5f99.js" as="script"><link rel="preload" href="/assets/js/2.66f31d6c.js" as="script"><link rel="preload" href="/assets/js/8.35989287.js" as="script"><link rel="prefetch" href="/assets/js/10.d77f1660.js"><link rel="prefetch" href="/assets/js/3.b4cf16d0.js"><link rel="prefetch" href="/assets/js/4.5c91d4b2.js"><link rel="prefetch" href="/assets/js/5.3fcb73e2.js"><link rel="prefetch" href="/assets/js/6.afa973b0.js"><link rel="prefetch" href="/assets/js/7.55652c79.js"><link rel="prefetch" href="/assets/js/9.5c4cab70.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.31cab9db.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">PowerJSON</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">Index</a></div><div class="nav-item"><a href="/docs/v1/" class="nav-link router-link-active">Document</a></div><div class="nav-item"><a href="https://cn.powerjson.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  中文
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">Index</a></div><div class="nav-item"><a href="/docs/v1/" class="nav-link router-link-active">Document</a></div><div class="nav-item"><a href="https://cn.powerjson.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  中文
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/docs/v1/" class="sidebar-link">Introduction</a></li><li><a href="/docs/v1/installation.html" class="sidebar-link">Installation</a></li><li><a href="/docs/v1/compiler.html" class="sidebar-link">Compiler</a></li><li><a href="/docs/v1/grammar.html" class="active sidebar-link">PJSON Grammar</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/v1/grammar.html#strings" class="sidebar-link">Strings</a></li><li class="sidebar-sub-header"><a href="/docs/v1/grammar.html#comments" class="sidebar-link">Comments</a></li><li class="sidebar-sub-header"><a href="/docs/v1/grammar.html#object-name" class="sidebar-link">Object Name</a></li><li class="sidebar-sub-header"><a href="/docs/v1/grammar.html#operator" class="sidebar-link">Operator</a></li><li class="sidebar-sub-header"><a href="/docs/v1/grammar.html#file-data" class="sidebar-link">File data</a></li><li class="sidebar-sub-header"><a href="/docs/v1/grammar.html#http-get-data" class="sidebar-link">HTTP GET Data</a></li><li class="sidebar-sub-header"><a href="/docs/v1/grammar.html#import-other-pjson-files" class="sidebar-link">Import other .pjson files</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="pjson-grammar"><a href="#pjson-grammar" aria-hidden="true" class="header-anchor">#</a> PJSON Grammar</h1> <p>✏️ The syntax of PowerJSON is basically similar to JSON. In this document we only cover the differences between PowerJSON and JSON. If you need to view the JSON syntax, please click <a href="https://json.org/" target="_blank" rel="noopener noreferrer">here<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <h2 id="strings"><a href="#strings" aria-hidden="true" class="header-anchor">#</a> Strings</h2> <p>PowerJSON provides <strong>3</strong> strings: <strong>single quoted string</strong>, <strong>double quoted string</strong>, <strong>multi-line string</strong>:</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// This is a single quoted string (single line)</span>
+<span class="token string">'hello world'</span>
+
+<span class="token comment">// This is a double quoted string (single line)</span>
+<span class="token string">&quot;hello world&quot;</span>
+
+<span class="token comment">// This is a multi-line string</span>
+<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Hello
+World</span><span class="token template-punctuation string">`</span></span>
+</code></pre></div><h2 id="comments"><a href="#comments" aria-hidden="true" class="header-anchor">#</a> Comments</h2> <p>In PowerJSON, comments are divided into <strong>single-line comments</strong> and <strong>multi-line comments</strong>, which are written in exactly the same way as comments in JavaScript:</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// Single line comment</span>
+
+<span class="token comment">/*
+    Multi-line comment
+ */</span>
+</code></pre></div><h2 id="object-name"><a href="#object-name" aria-hidden="true" class="header-anchor">#</a> Object Name</h2> <p>The object property name of PowerJSON can be omitted without adding <code>&quot;&quot;</code>, for example:</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    name<span class="token punctuation">:</span> <span class="token string">'value'</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>And in JSON you need to write like this:</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;value&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="operator"><a href="#operator" aria-hidden="true" class="header-anchor">#</a> Operator</h2> <p>The operators in PowerJSON are a very powerful feature, and if you need to calculate some complex mathematical operations, you will no longer need to calculate them.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    name<span class="token punctuation">:</span> <span class="token number">1</span> <span class="token operator">+</span> <span class="token number">3</span> <span class="token operator">*</span> <span class="token number">2</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// You can also implement string stitching.</span>
+<span class="token punctuation">{</span>
+    name<span class="token punctuation">:</span> <span class="token string">'hello'</span> <span class="token operator">+</span> <span class="token string">' '</span> <span class="token operator">+</span> <span class="token string">'world'</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="file-data"><a href="#file-data" aria-hidden="true" class="header-anchor">#</a> File data</h2> <p>Another powerful feature of PowerJSON is the ability to support referenced files. You only need to use the <code>new File()</code> function: <strong>(Note! PJSON reads files will be read synchronously)</strong></p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    file<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">File</span><span class="token punctuation">(</span><span class="token string">'file path'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="http-get-data"><a href="#http-get-data" aria-hidden="true" class="header-anchor">#</a> HTTP GET Data</h2> <p>You can use the <code>new GET()</code> function to create a GET request to get a file under a URL: <strong>(note! PJSON will send a synchronous GET request)</strong></p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    <span class="token keyword">get</span><span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">GET</span><span class="token punctuation">(</span><span class="token string">'URL path'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="import-other-pjson-files"><a href="#import-other-pjson-files" aria-hidden="true" class="header-anchor">#</a> Import other <code>.pjson</code> files</h2> <p>PowerJSON allows you to import other <code>.pjson</code> files using the <code>new PJSON()</code> function: <strong>(note! the import process will be executed synchronously)</strong></p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    <span class="token keyword">get</span><span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">PJSON</span><span class="token punctuation">(</span><span class="token string">'Other .pjson file paths'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/docs/v1/compiler.html" class="prev">
+          Compiler
+        </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.cebe5f99.js" defer></script><script src="/assets/js/2.66f31d6c.js" defer></script><script src="/assets/js/8.35989287.js" defer></script>
+  </body>
+</html>
